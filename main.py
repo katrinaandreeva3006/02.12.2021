@@ -1,3 +1,5 @@
-word="Trijsturis"
-for index,letter in enumerate(word,1):
-    print(index,":",letter)
+my_string = "Trijsturis"
+x = 0
+for i in my_string:
+  x = x + 1
+  print(my_string[0:x])
